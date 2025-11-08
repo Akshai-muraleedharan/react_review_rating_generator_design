@@ -6,7 +6,7 @@ export const BookDetail = () => {
 
             <div>
                 <div className='flex w-full'>
-                    < img className='w-40 md:w-2xs' src={image} alt="Book image" />
+                    < img className='w-40 md:w-2xs' loading='lazy' src={image} alt="Book image" />
                     <div className='p-1 md:hidden'>
                         <h2 className='text-primary_color font-medium max-sm:text-[14px] lg:text-4xl'>Steve Jobs</h2>
                         <h3 className='lg:text-2xl font-normal max-sm:text-[12px] mt-3'>By : WALTER ISAACSON</h3>
